@@ -104,8 +104,8 @@ const links = {
     <h2 class="show">Ready to do something unusual and interesting!</h2>
     <p class="contact">Open to something new. I want to really join an interesting project. Please feel free to email me at any time, I will be glad to cooperate in creating various projects. Thank you dear friend for your attention.</p>
     <p class="contact"><img src="assets/images/svg/mail.svg" alt="Email"><span>Email: </span><a href="mailto:bxyura@gmail.com">BxYura@gmail.com</a></p>
-    <p class="contact"><img src="assets/images/svg/in.svg" alt="Linkedin"><span>Linkedin: </span><a href="https://www.linkedin.com/in/yury-butskevich-00b580262/">follow...</a></p>
-    <p class="contact"><img src="assets/images/svg/github.svg" alt="Github"><span>Github: </span><a href="https://github.com/YourunB">follow...</a></p>
+    <p class="contact"><img src="assets/images/svg/in.svg" alt="Linkedin"><span>Linkedin: </span><a href="https://www.linkedin.com/in/yury-butskevich-00b580262/" target="_blank">follow...</a></p>
+    <p class="contact"><img src="assets/images/svg/github.svg" alt="Github"><span>Github: </span><a href="https://github.com/YourunB" target="_blank">follow...</a></p>
   `,
 };
 

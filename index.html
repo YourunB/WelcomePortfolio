@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="icon" href="assets/images/favicon.png">
+  <title>Yury Butskevich</title>
+  </head>
+<body>
+
+  <audio src="./assets/audio/click.mp3" id="song-click"></audio>
+  <div class="cursor" id="cursor"></div>
+
+  <header>
+    <nav class="mainmenu" id="mainmenu">
+      <ul class="mainmenu__list">
+        <li><a class="mainmenu__link" href="#welcome">Welcome</a></li>
+        <li><a class="mainmenu__link" href="#about">About</a></li>
+        <li><a class="mainmenu__link" href="#projects">Projects</a></li>
+        <li><a class="mainmenu__link" href="#contacts">Contacts</a></li>
+      </ul>
+      <img alt="Close" src="./assets/images/svg/close.svg" class="btn" id="btn-close">
+    </nav>
+    <img alt="Menu" src="./assets/images/svg/menu.svg" class="btn" id="btn-menu">
+  </header>
+
+  <main class="content" id="content"></main>
+
+  <footer>
+    <a href="https://yourunb.github.io/CV/" target="_blank">&copy; 2023 Yury Butskevich</a>
+    <a href="https://codepen.io/BxYura/pens/public" target="_blank"><img src="assets/images/svg/codepen.svg" alt="codepen"></a>
+    <a href="https://www.codewars.com/users/rsschool_785da839e5c30a16" target="_blank"><img src="assets/images/svg/codewars.svg" alt="codewars"></a>
+    <a href="https://github.com/YourunB" target="_blank"><img src="assets/images/svg/github.svg" alt="github"></a>
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+</html>

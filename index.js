@@ -86,8 +86,19 @@ const links = {
           <p class="project__description_control"><a href="https://yourunb.github.io/Audio-Player/" target="_blank">Open</a></p>
       </div>
     </div>
+
+    <div class="project">
+    <div class="project__description">
+      <p class="project__description_title">Ping Pong</p>
+      <a href="https://yourunb.github.io/PingPong/" target="_blank"><img class="project__description_image" src="assets/images/projects/audio-player.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Ping pong game made on canvas</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Dveloper:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/PingPong/" target="_blank">Open</a></p>
+    </div>
+  </div>
   
-    <a href="https://codepen.io/BxYura/pens/public?cursor=ZD0wJm89MSZwPTEmdj02OTkwMDQ0MQ==">...more projects</a>
+  <a href="https://codepen.io/BxYura/pens/public?cursor=ZD0wJm89MSZwPTEmdj02OTkwMDQ0MQ==">...more projects</a>
   `,
   contacts: `
     <h2 class="show">Ready to do something unusual and interesting!</h2>

@@ -90,7 +90,7 @@ const links = {
     <div class="project">
     <div class="project__description">
       <p class="project__description_title">Ping Pong</p>
-      <a href="https://yourunb.github.io/PingPong/" target="_blank"><img class="project__description_image" src="assets/images/projects/audio-player.jpg" alt="Project image"></a>
+      <a href="https://yourunb.github.io/PingPong/" target="_blank"><img class="project__description_image" src="assets/images/projects/ping-pong.jpg" alt="Project image"></a>
         <p><span>Description:</span> Ping pong game made on canvas</p>
         <p><span>Year:</span> 2023</p>
         <p><span>Dveloper:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>

@@ -128,10 +128,13 @@ window.addEventListener("load", (e) => {
   location.hash.slice(1) ? updateState() : location.hash = "#welcome";
 });
 
-function mouseMove(e) {
-  const x = e.clientX;
-  const y = e.clientY;
-  cursor.style.transform = `translate(${x - 10}px, ${y - 10}px)`;
+if (navigator.maxTouchPoints > 0) cursor.classList.add('unvisible');
+if (navigator.maxTouchPoints === 0) {
+  function mouseMove(e) {
+    const x = e.clientX;
+    const y = e.clientY;
+    cursor.style.transform = `translate(${x - 10}px, ${y - 10}px)`;
+  }
 }
 
 document.addEventListener('mousemove', mouseMove);

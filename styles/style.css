@@ -35,16 +35,6 @@ header {
   right: 0;
 }
 
-.btn:hover {
-  transform: scale(1.2);
-  cursor: url('../assets/images/dot-action.png'), pointer;
-}
-
-.btn:active {
-  transform: scale(0.9);
-  transition: 0.2s;
-}
-
 .mainmenu {
   position: fixed;
   z-index: 1000;
@@ -79,17 +69,6 @@ header {
   position: relative;
 }
 
-.mainmenu__list li:hover {
-  transform: scale(1.1);
-  rotate: 20deg;
-}
-
-.mainmenu__list li:active {
-  transition: 0.5s;
-  transform: scale(0.9);
-  color: rgb(255, 255, 132);
-}
-
 .mainmenu__link::before {
   content: '';
   display: block;
@@ -98,10 +77,6 @@ header {
   border-bottom: solid 2px white;
   width: 0;
   transition: 1s;
-}
-
-.mainmenu__link:hover::before {
-  width: 100%;
 }
 
 .content {
@@ -156,11 +131,6 @@ header {
   position: relative;
 }
 
-.contact a:hover {
-  transform: scale(1.1);
-  rotate: 20deg;
-}
-
 .contact a::after {
   content: '';
   position: absolute;
@@ -169,10 +139,6 @@ header {
   width: 0;
   border-bottom: solid 1px white;
   transition: 1s;
-}
-
-.contact:hover a::after {
-  width: 100%;
 }
 
 .project {
@@ -237,16 +203,6 @@ header {
   transition: 1s;
 }
 
-.project__description_control a:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 3px 3px white;
-}
-
-.project__description_control a:active {
-  transform: scale(0.95);
-  transition: 0.2s;
-}
-
 .greeting {
   text-align: center;
   overflow: hidden;
@@ -288,10 +244,6 @@ header {
   transition: 2s;
 }
 
-.greeting a img:hover {
-  transform: translateY(0);
-}
-
 .greeting__controls {
   width: 100%;
   display: flex;
@@ -308,26 +260,11 @@ header {
   transition: 1s;
 }
 
-.greeting__controls_link:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 3px 3px white;
-}
-
-.greeting__controls_link:active {
-  transform: scale(0.8);
-  transition: 0.2s;
-}
-
 .start {
   width: 100%;
   text-align: center;
   transition: 0.5s;
   border-bottom: solid 1px #191c22;
-}
-
-.start:hover {
-  transform: scale(1.1);
-  border-bottom: solid 1px red;
 }
 
 .face {
@@ -348,15 +285,6 @@ header {
   background: white;
   position: relative;
   transition: 1s;
-}
-
-.face__eye:hover {
-  transform: scale(1.1);
-}
-
-.face__eye:hover .face__eye_pupil {
-  width: 50px;
-  height: 50px;
 }
 
 .face__eye_pupil {
@@ -435,15 +363,6 @@ footer a img {
   transition: 0.7s;
 }
 
-footer a img:hover {
-  transform: scale(1.2);
-}
-
-footer a img:active {
-  transition: 0.2s;
-  transform: scale(0.8);
-}
-
 .unvisible {
   display: none;
 }
@@ -519,6 +438,89 @@ footer a img:active {
   100% {
     opacity: 1;
     bottom: 80px;
+  }
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    transform: scale(1.2);
+    cursor: url('../assets/images/dot-action.png'), pointer;
+  }
+  
+  .btn:active {
+    transform: scale(0.9);
+    transition: 0.2s;
+  }
+  
+  .mainmenu__list li:hover {
+    transform: scale(1.1);
+    rotate: 20deg;
+  }
+  
+  .mainmenu__link:hover::before {
+    width: 100%;
+  }
+
+  .mainmenu__list li:active {
+    transition: 0.5s;
+    transform: scale(0.9);
+    color: rgb(255, 255, 132);
+  }
+  
+  .contact a:hover {
+    transform: scale(1.1);
+    rotate: 20deg;
+  }
+  
+  .contact:hover a::after {
+    width: 100%;
+  }
+  
+  .project__description_control a:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 3px 3px white;
+  }
+
+  .project__description_control a:active {
+    transform: scale(0.95);
+    transition: 0.2s;
+  }
+  
+  .greeting a img:hover {
+    transform: translateY(0);
+  }
+  
+  .greeting__controls_link:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 3px 3px white;
+  }
+
+  .greeting__controls_link:active {
+    transform: scale(0.8);
+    transition: 0.2s;
+  }
+  
+  .start:hover {
+    transform: scale(1.1);
+    border-bottom: solid 1px red;
+  }
+  
+  .face__eye:hover {
+    transform: scale(1.1);
+  }
+  
+  .face__eye:hover .face__eye_pupil {
+    width: 50px;
+    height: 50px;
+  }
+  
+  footer a img:hover {
+    transform: scale(1.2);
+  }
+
+  footer a img:active {
+    transition: 0.2s;
+    transform: scale(0.8);
   }
 }
 

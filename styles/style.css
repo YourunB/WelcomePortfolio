@@ -173,6 +173,10 @@ header {
   animation: left-show 1s forwards;
   animation-delay: 6s;
 }
+.project:nth-of-type(8) {
+  animation: left-show 1s forwards;
+  animation-delay: 7s;
+}
 
 .project__description {
   max-width: 600px;

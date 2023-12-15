@@ -53,6 +53,17 @@ const links = {
           <p class="project__description_control"><a href="https://yourunb.github.io/Free-To-Play/" target="_blank">Open</a></p>
       </div>
     </div>
+
+    <div class="project">
+      <div class="project__description">
+        <p class="project__description_title">Coffee House</p>
+        <a href="https://yourunb.github.io/CoffeeHouse/" target="_blank"><img class="project__description_image" src="assets/images/projects/coffee-house.jpg" alt="Project image"></a>
+          <p><span>Description:</span> Web site about coffee and tea</p>
+          <p><span>Year:</span> 2023</p>
+          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+          <p class="project__description_control"><a href="https://yourunb.github.io/CoffeeHouse/" target="_blank">Open</a></p>
+      </div>
+    </div>
   
     <div class="project">
       <div class="project__description">

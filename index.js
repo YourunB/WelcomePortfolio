@@ -34,6 +34,17 @@ const links = {
     <h2 class="show">Some of my projects</h2>
     <div class="project">
       <div class="project__description">
+        <p class="project__description_title">Final Space</p>
+        <a href="https://yourunb.github.io/Free-To-Play/" target="_blank"><img class="project__description_image" src="assets/images/projects/final-space.jpg" alt="Project image"></a>
+          <p><span>Description:</span> React SPA about Final Space movie</p>
+          <p><span>Year:</span> 2023</p>
+          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+          <p class="project__description_control"><a href="https://yourunb.github.io/FinalSpace/" target="_blank">Open</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
         <p class="project__description_title">Free To Play</p>
         <a href="https://yourunb.github.io/Free-To-Play/" target="_blank"><img class="project__description_image" src="assets/images/projects/free-to-play.jpg" alt="Project image"></a>
           <p><span>Description:</span> SPA is an application for searching for free games on the Internet</p>

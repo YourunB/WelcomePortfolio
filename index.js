@@ -35,7 +35,7 @@ const links = {
     <div class="project">
       <div class="project__description">
         <p class="project__description_title">Final Space</p>
-        <a href="https://yourunb.github.io/Free-To-Play/" target="_blank"><img class="project__description_image" src="assets/images/projects/final-space.jpg" alt="Project image"></a>
+        <a href="https://yourunb.github.io/FinalSpace/" target="_blank"><img class="project__description_image" src="assets/images/projects/final-space.jpg" alt="Project image"></a>
           <p><span>Description:</span> React SPA about Final Space movie</p>
           <p><span>Year:</span> 2023</p>
           <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>

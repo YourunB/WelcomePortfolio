@@ -35,7 +35,7 @@ const links = {
     <div class="project">
       <div class="project__description">
         <p class="project__description_title">Rick and Morty React App</p>
-        <a href="https://yourunb.github.io/Rick-and-Morty-on-React/" target="_blank"><img class="project__description_image" src="assets/images/projects/hangman-game.jpg" alt="Project image"></a>
+        <a href="https://yourunb.github.io/Rick-and-Morty-on-React/" target="_blank"><img class="project__description_image" src="assets/images/projects/rick-morty-react.jpg" alt="Project image"></a>
           <p><span>Description:</span> React SPA about Rick and Morty movie characters</p>
           <p><span>Year:</span> 2024</p>
           <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>

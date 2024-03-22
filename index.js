@@ -34,6 +34,17 @@ const links = {
     <h2 class="show">Some of my projects</h2>
     <div class="project">
       <div class="project__description">
+        <p class="project__description_title">Puzzle Game</p>
+        <a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/rss-puzzle/" target="_blank"><img class="project__description_image" src="assets/images/projects/puzzle.jpg" alt="Project image"></a>
+          <p><span>Description:</span> Puzzle Game - Learn English Fun</p>
+          <p><span>Year:</span> 2024</p>
+          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+          <p class="project__description_control"><a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/rss-puzzle/" target="_blank">Open</a></p>
+      </div>
+    </div>
+    
+    <div class="project">
+      <div class="project__description">
         <p class="project__description_title">Nonograms Game</p>
         <a href="https://yourunb.github.io/Nonograms-Game/" target="_blank"><img class="project__description_image" src="assets/images/projects/nonograms.jpg" alt="Project image"></a>
           <p><span>Description:</span> Japanese Crosswords - logic puzzles</p>

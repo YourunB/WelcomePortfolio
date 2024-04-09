@@ -209,7 +209,6 @@ header {
   animation-delay: 13s;
 }
 
-
 .project__description {
   max-width: 600px;
 }
@@ -232,6 +231,11 @@ header {
   width: 100%;
   border: solid 10px white;
   transition: 0.7s;
+}
+
+.more-project {
+  width: 100%;
+  text-align: center;
 }
 
 @media (hover:hover) {

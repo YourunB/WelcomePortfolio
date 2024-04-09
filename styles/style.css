@@ -9,6 +9,7 @@ body {
   font-family: Pacifico, Arial;
   color: white;
   cursor: url('../assets/images/dot.png'), auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -84,7 +85,7 @@ header {
   right: 0;
   margin: auto;
   padding: 10px;
-  gap: 10px;
+  gap: 20px;
   max-width: 1400px;
   min-height: calc(100vh - 120px);
   display: flex;
@@ -141,14 +142,20 @@ header {
   transition: 1s;
 }
 
+.show {
+  width: 100%;
+  text-align: center;
+}
+
 .project {
   display: flex;
   justify-content: center;
-  width: 100%;
   transform: translateX(-500%);
 }
 
-.project:nth-of-type(1) {  animation: left-show 1s forwards; }
+.project:nth-of-type(1) {
+  animation: left-show 1s forwards;
+}
 .project:nth-of-type(2) {
   animation: left-show 1s forwards;
   animation-delay: 1s;
@@ -197,9 +204,18 @@ header {
   animation: left-show 1s forwards;
   animation-delay: 12s;
 }
+.project:nth-of-type(14) {
+  animation: left-show 1s forwards;
+  animation-delay: 13s;
+}
+
 
 .project__description {
   max-width: 600px;
+}
+
+.project__description a {
+  overflow: hidden;
 }
 
 .project__description_title {
@@ -215,6 +231,18 @@ header {
   border-radius: 10px;
   width: 100%;
   border: solid 10px white;
+  transition: 0.7s;
+}
+
+@media (hover:hover) {
+  .project__description_image:hover {
+    transform: scale(1.05);
+  }
+}
+
+.project__description_image:active {
+  transition: 0.2s;
+  transform: scale(0.9);
 }
 
 .project__description_control {

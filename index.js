@@ -186,7 +186,7 @@ const links = {
     </div>
   </div>
   
-  <a href="https://codepen.io/BxYura/pens/public?cursor=ZD0wJm89MSZwPTEmdj02OTkwMDQ0MQ==">...more projects</a>
+  <a class="more-project" href="https://codepen.io/BxYura/pens/public?cursor=ZD0wJm89MSZwPTEmdj02OTkwMDQ0MQ==">...more projects</a>
   `,
   contacts: `
     <h2 class="show">Ready to do something unusual and interesting!</h2>

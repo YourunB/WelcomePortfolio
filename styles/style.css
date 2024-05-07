@@ -158,63 +158,63 @@ header {
 }
 .project:nth-of-type(2) {
   animation: left-show 1s forwards;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }
 .project:nth-of-type(3) {
   animation: left-show 1s forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 .project:nth-of-type(4) {
   animation: left-show 1s forwards;
-  animation-delay: 3s;
+  animation-delay: 1.5s;
 }
 .project:nth-of-type(5) {
   animation: left-show 1s forwards;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 .project:nth-of-type(6) {
   animation: left-show 1s forwards;
-  animation-delay: 5s;
+  animation-delay: 2.5s;
 }
 .project:nth-of-type(7) {
   animation: left-show 1s forwards;
-  animation-delay: 6s;
+  animation-delay: 3s;
 }
 .project:nth-of-type(8) {
   animation: left-show 1s forwards;
-  animation-delay: 7s;
+  animation-delay: 3.5s;
 }
 .project:nth-of-type(9) {
   animation: left-show 1s forwards;
-  animation-delay: 8s;
+  animation-delay: 4s;
 }
 .project:nth-of-type(10) {
   animation: left-show 1s forwards;
-  animation-delay: 9s;
+  animation-delay: 4.5s;
 }
 .project:nth-of-type(11) {
   animation: left-show 1s forwards;
-  animation-delay: 10s;
+  animation-delay: 5s;
 }
 .project:nth-of-type(12) {
   animation: left-show 1s forwards;
-  animation-delay: 11s;
+  animation-delay: 5.5s;
 }
 .project:nth-of-type(13) {
   animation: left-show 1s forwards;
-  animation-delay: 12s;
+  animation-delay: 6s;
 }
 .project:nth-of-type(14) {
   animation: left-show 1s forwards;
-  animation-delay: 13s;
+  animation-delay: 6.5s;
 }
 .project:nth-of-type(15) {
   animation: left-show 1s forwards;
-  animation-delay: 14s;
+  animation-delay: 7s;
 }
 .project:nth-of-type(16) {
   animation: left-show 1s forwards;
-  animation-delay: 15s;
+  animation-delay: 7.5s;
 }
 
 .project__description {

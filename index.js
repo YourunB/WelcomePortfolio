@@ -36,10 +36,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Puzzle Game</p>
         <a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/rss-puzzle/" target="_blank"><img class="project__description_image" src="assets/images/projects/puzzle.jpg" alt="Project image"></a>
-          <p><span>Description:</span> Puzzle Game - Learn English Fun</p>
-          <p><span>Year:</span> 2024</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/rss-puzzle/" target="_blank">Open</a></p>
+        <p><span>Description:</span> Puzzle Game - Learn English Fun</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/rss-puzzle/" target="_blank">Open</a></p>
       </div>
     </div>
     
@@ -47,10 +47,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Nonograms Game</p>
         <a href="https://yourunb.github.io/Nonograms-Game/" target="_blank"><img class="project__description_image" src="assets/images/projects/nonograms.jpg" alt="Project image"></a>
-          <p><span>Description:</span> Japanese Crosswords - logic puzzles</p>
-          <p><span>Year:</span> 2024</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/Nonograms-Game/" target="_blank">Open</a></p>
+        <p><span>Description:</span> Japanese Crosswords - logic puzzles</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/Nonograms-Game/" target="_blank">Open</a></p>
       </div>
     </div>
     
@@ -58,10 +58,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Rick and Morty React App</p>
         <a href="https://yourunb.github.io/Rick-and-Morty-on-React/" target="_blank"><img class="project__description_image" src="assets/images/projects/rick-morty-react.jpg" alt="Project image"></a>
-          <p><span>Description:</span> React SPA about Rick and Morty movie characters</p>
-          <p><span>Year:</span> 2024</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/Rick-and-Morty-on-React/" target="_blank">Open</a></p>
+        <p><span>Description:</span> React SPA about Rick and Morty movie characters</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/Rick-and-Morty-on-React/" target="_blank">Open</a></p>
       </div>
     </div>
     
@@ -69,10 +69,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Hangman Game</p>
         <a href="https://yourunb.github.io/Hangman-Game/" target="_blank"><img class="project__description_image" src="assets/images/projects/hangman-game.jpg" alt="Project image"></a>
-          <p><span>Description:</span> A bright and exciting quiz game - hangman</p>
-          <p><span>Year:</span> 2024</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/Hangman-Game/" target="_blank">Open</a></p>
+        <p><span>Description:</span> A bright and exciting quiz game - hangman</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/Hangman-Game/" target="_blank">Open</a></p>
       </div>
     </div>
 
@@ -80,10 +80,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">News Portal</p>
         <a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/news-api/" target="_blank"><img class="project__description_image" src="assets/images/projects/news-portal.jpg" alt="Project image"></a>
-          <p><span>Description:</span> TypeScript App with news sources</p>
-          <p><span>Year:</span> 2024</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/news-api/" target="_blank">Open</a></p>
+        <p><span>Description:</span> TypeScript App with news sources</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/news-api/" target="_blank">Open</a></p>
       </div>
     </div>
 
@@ -91,10 +91,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Kapibara Lab</p>
         <a href="https://yourunb.github.io/kapibara-lab/" target="_blank"><img class="project__description_image" src="assets/images/projects/kapibara.jpg" alt="Project image"></a>
-          <p><span>Description:</span> Reat App about kapibara labaratory</p>
-          <p><span>Year:</span> 2024</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/kapibara-lab/" target="_blank">Open</a></p>
+        <p><span>Description:</span> Reat App about kapibara labaratory</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/kapibara-lab/" target="_blank">Open</a></p>
       </div>
     </div>
     
@@ -102,10 +102,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Final Space React App</p>
         <a href="https://yourunb.github.io/FinalSpace/" target="_blank"><img class="project__description_image" src="assets/images/projects/final-space.jpg" alt="Project image"></a>
-          <p><span>Description:</span> React SPA about Final Space movie</p>
-          <p><span>Year:</span> 2023</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/FinalSpace/" target="_blank">Open</a></p>
+        <p><span>Description:</span> React SPA about Final Space movie</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/FinalSpace/" target="_blank">Open</a></p>
       </div>
     </div>
 
@@ -113,10 +113,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Free To Play</p>
         <a href="https://yourunb.github.io/Free-To-Play/" target="_blank"><img class="project__description_image" src="assets/images/projects/free-to-play.jpg" alt="Project image"></a>
-          <p><span>Description:</span> SPA based on MVC is an application for searching free games</p>
-          <p><span>Year:</span> 2023</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/Free-To-Play/" target="_blank">Open</a></p>
+        <p><span>Description:</span> SPA based on MVC is an application for searching free games</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/Free-To-Play/" target="_blank">Open</a></p>
       </div>
     </div>
 
@@ -124,10 +124,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Coffee House</p>
         <a href="https://yourunb.github.io/CoffeeHouse/" target="_blank"><img class="project__description_image" src="assets/images/projects/coffee-house.jpg" alt="Project image"></a>
-          <p><span>Description:</span> Web site about coffee and tea</p>
-          <p><span>Year:</span> 2023</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/CoffeeHouse/" target="_blank">Open</a></p>
+        <p><span>Description:</span> Web site about coffee and tea</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/CoffeeHouse/" target="_blank">Open</a></p>
       </div>
     </div>
   
@@ -135,10 +135,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Memory Game</p>
         <a href="https://yourunb.github.io/Memory-Game/Memory-Game/" target="_blank"><img class="project__description_image" src="assets/images/projects/memory-game.jpg" alt="Project image"></a>
-          <p><span>Description:</span> Games for developing the memory abilities of our brain</p>
-          <p><span>Year:</span> 2023</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/Memory-Game/Memory-Game/" target="_blank">Open</a></p>
+        <p><span>Description:</span> Games for developing the memory abilities of our brain</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/Memory-Game/Memory-Game/" target="_blank">Open</a></p>
       </div>
     </div>
   
@@ -146,10 +146,10 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Image Gallery</p>
         <a href="https://yourunb.github.io/Image-Gallery/image-gallery/" target="_blank"><img class="project__description_image" src="assets/images/projects/image-gallery.jpg" alt="Project image"></a>
-          <p><span>Description:</span> Applications for viewing images and current photos</p>
-          <p><span>Year:</span> 2023</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/Image-Gallery/image-gallery/" target="_blank">Open</a></p>
+        <p><span>Description:</span> Applications for viewing images and current photos</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/Image-Gallery/image-gallery/" target="_blank">Open</a></p>
       </div>
     </div>
   
@@ -157,10 +157,21 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Rick and Morty</p>
         <a href="https://yourunb.github.io/Rick_and_Morty/" target="_blank"><img class="project__description_image" src="assets/images/projects/rick-and-morty.jpg" alt="Project image"></a>
-          <p><span>Description:</span> Applications for viewing information about all the characters of the cartoon Rick and Morty</p>
-          <p><span>Year:</span> 2023</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/Rick_and_Morty/" target="_blank">Open</a></p>
+        <p><span>Description:</span> Applications for viewing information about all the characters of the cartoon Rick and Morty</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/Rick_and_Morty/" target="_blank">Open</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
+        <p class="project__description_title">Brooklyn Public Library</p>
+        <a href="https://yourunb.github.io/NYC-Library/" target="_blank"><img class="project__description_image" src="assets/images/projects/library.jpg" alt="Project image"></a>
+        <p><span>Description:</span> The library website is based on a layout from Figma</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/NYC-Library/" target="_blank">Open</a></p>
       </div>
     </div>
   
@@ -168,17 +179,28 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Audio Player</p>
         <a href="https://yourunb.github.io/Audio-Player/" target="_blank"><img class="project__description_image" src="assets/images/projects/audio-player.jpg" alt="Project image"></a>
-          <p><span>Description:</span> A simple, stylized audio player</p>
-          <p><span>Year:</span> 2023</p>
-          <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-          <p class="project__description_control"><a href="https://yourunb.github.io/Audio-Player/" target="_blank">Open</a></p>
+        <p><span>Description:</span> A simple, stylized audio player</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/Audio-Player/" target="_blank">Open</a></p>
       </div>
     </div>
 
     <div class="project">
-    <div class="project__description">
-      <p class="project__description_title">Ping Pong</p>
-      <a href="https://yourunb.github.io/PingPong/" target="_blank"><img class="project__description_image" src="assets/images/projects/ping-pong.jpg" alt="Project image"></a>
+      <div class="project__description">
+        <p class="project__description_title">Stretch Ceilings</p>
+        <a href="https://yourunb.github.io/First_project-stretch_ceilings/" target="_blank"><img class="project__description_image" src="assets/images/projects/library.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Website about stretch ceilings</p>
+        <p><span>Year:</span> 2023</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/First_project-stretch_ceilings/" target="_blank">Open</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
+        <p class="project__description_title">Ping Pong</p>
+        <a href="https://yourunb.github.io/PingPong/" target="_blank"><img class="project__description_image" src="assets/images/projects/ping-pong.jpg" alt="Project image"></a>
         <p><span>Description:</span> Ping pong game made on canvas</p>
         <p><span>Year:</span> 2023</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>

@@ -189,7 +189,7 @@ const links = {
     <div class="project">
       <div class="project__description">
         <p class="project__description_title">Stretch Ceilings</p>
-        <a href="https://yourunb.github.io/First_project-stretch_ceilings/" target="_blank"><img class="project__description_image" src="assets/images/projects/library.jpg" alt="Project image"></a>
+        <a href="https://yourunb.github.io/First_project-stretch_ceilings/" target="_blank"><img class="project__description_image" src="assets/images/projects/ceiling.jpg" alt="Project image"></a>
         <p><span>Description:</span> Website about stretch ceilings</p>
         <p><span>Year:</span> 2023</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>

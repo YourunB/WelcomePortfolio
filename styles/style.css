@@ -12,6 +12,11 @@ body {
   overflow-x: hidden;
 }
 
+::selection {
+  color: #191c22;
+  background: white;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;

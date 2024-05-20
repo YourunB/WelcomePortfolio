@@ -64,6 +64,28 @@ const links = {
         <p class="project__description_control"><a href="https://yourunb.github.io/Rick-and-Morty-on-React/" target="_blank">Open</a></p>
       </div>
     </div>
+
+    <div class="project">
+      <div class="project__description">
+        <p class="project__description_title">Chat</p>
+        <a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/rss-puzzle/" target="_blank"><img class="project__description_image" src="assets/images/projects/chat.jpg" alt="Project image"></a>
+        <p><span>Description:</span> chat for communication on webSocket (open <a href="https://github.com/YourunB/fun-chat-server" target="_blank">API</a> for work App)</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/rss-puzzle/" target="_blank">Open</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
+        <p class="project__description_title">Async Race</p>
+        <a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/async-race/" target="_blank"><img class="project__description_image" src="assets/images/projects/race.jpg" alt="Project image"></a>
+        <p><span>Description:</span> car racing, asynchronous programming (open <a href="https://github.com/YourunB/async-race-api" target="_blank">API</a> for work App)</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/async-race/" target="_blank">Open</a></p>
+      </div>
+    </div>
     
     <div class="project">
       <div class="project__description">

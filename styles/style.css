@@ -221,6 +221,14 @@ header {
   animation: left-show 1s forwards;
   animation-delay: 7.5s;
 }
+.project:nth-of-type(17) {
+  animation: left-show 1s forwards;
+  animation-delay: 8s;
+}
+.project:nth-of-type(18) {
+  animation: left-show 1s forwards;
+  animation-delay: 8.5s;
+}
 
 .project__description {
   max-width: 600px;

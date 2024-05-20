@@ -254,6 +254,14 @@ header {
   transition: 0.7s;
 }
 
+.project__description__link {
+  border: solid 1px white;
+  background: rgb(255, 255, 132);
+  color: #191c22;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
 .more-project {
   width: 100%;
   text-align: center;

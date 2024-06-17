@@ -112,6 +112,17 @@ const links = {
     <div class="project">
       <div class="project__description">
         <p class="project__description_title">Kapibara Lab</p>
+        <a href="https://yourunb.github.io/company-projects/" target="_blank"><img class="project__description_image" src="assets/images/projects/company-projects.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Landing for comapy projects</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/company-projects/" target="_blank">Open</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
+        <p class="project__description_title">Company projects</p>
         <a href="https://yourunb.github.io/kapibara-lab/" target="_blank"><img class="project__description_image" src="assets/images/projects/kapibara.jpg" alt="Project image"></a>
         <p><span>Description:</span> Reat App about kapibara labaratory</p>
         <p><span>Year:</span> 2024</p>

@@ -133,9 +133,9 @@ const links = {
 
     <div class="project">
       <div class="project__description">
-        <p class="project__description_title">Plants Shop</p>
+        <p class="project__description_title">Plant Shop</p>
         <a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/ecommerce/" target="_blank"><img class="project__description_image" src="assets/images/projects/ecommerce.jpg" alt="Project image"></a>
-        <p><span>Description:</span> This is final project for team work from education Stage 2 in RS School with API Commerce Tools</p>
+        <p><span>Description:</span> Teamwork on Github with API Commerce Tools.</p>
         <p><span>Year:</span> 2024</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
         <p class="project__description_control"><a href="https://rolling-scopes-school.github.io/yourunb-JSFE2023Q4/ecommerce/" target="_blank">Open</a></p>

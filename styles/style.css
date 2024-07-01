@@ -1,0 +1,638 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #191c22;
+  font-family: Pacifico, Arial;
+  color: white;
+  cursor: url('../assets/images/dot.png'), auto;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: #191c22;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: url('../assets/images/dot-action.png'), pointer;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+header {
+  height: 60px;
+}
+
+.btn {
+  width: 40px;
+  filter: invert(1);
+  transition: 1s;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.mainmenu {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform: translateY(-100%);
+  transition: 1s;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.show-menu {
+  transform: translateY(0);
+}
+
+.mainmenu__list {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  list-style-type: none;
+}
+
+.mainmenu__list li {
+  margin: 40px;
+  transition: 1s;
+  position: relative;
+}
+
+.mainmenu__link::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  border-bottom: solid 2px white;
+  width: 0;
+  transition: 1s;
+}
+
+.content {
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px;
+  gap: 20px;
+  max-width: 1400px;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transform: translateX(-500%);
+}
+
+.contact:nth-of-type(1) {
+  animation: left-show 1s forwards;
+}
+.contact:nth-of-type(2) {
+  animation: left-show 1s forwards;
+  animation-delay: 1s;
+}
+.contact:nth-of-type(3) {
+  animation: left-show 1s forwards;
+  animation-delay: 2s;
+}
+.contact:nth-of-type(4) {
+  animation: left-show 1s forwards;
+  animation-delay: 3s;
+}
+
+.contact img {
+  width: 30px;
+  background: white;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.contact a {
+  color: rgb(255, 255, 132);
+  transition: 1s;
+  position: relative;
+}
+
+.contact a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  border-bottom: solid 1px white;
+  transition: 1s;
+}
+
+.show {
+  width: 100%;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  transform: translateX(-500%);
+}
+
+.project:nth-of-type(1) {
+  animation: left-show 1s forwards;
+}
+.project:nth-of-type(2) {
+  animation: left-show 1s forwards;
+  animation-delay: 0.5s;
+}
+.project:nth-of-type(3) {
+  animation: left-show 1s forwards;
+  animation-delay: 1s;
+}
+.project:nth-of-type(4) {
+  animation: left-show 1s forwards;
+  animation-delay: 1.5s;
+}
+.project:nth-of-type(5) {
+  animation: left-show 1s forwards;
+  animation-delay: 2s;
+}
+.project:nth-of-type(6) {
+  animation: left-show 1s forwards;
+  animation-delay: 2.5s;
+}
+.project:nth-of-type(7) {
+  animation: left-show 1s forwards;
+  animation-delay: 3s;
+}
+.project:nth-of-type(8) {
+  animation: left-show 1s forwards;
+  animation-delay: 3.5s;
+}
+.project:nth-of-type(9) {
+  animation: left-show 1s forwards;
+  animation-delay: 4s;
+}
+.project:nth-of-type(10) {
+  animation: left-show 1s forwards;
+  animation-delay: 4.5s;
+}
+.project:nth-of-type(11) {
+  animation: left-show 1s forwards;
+  animation-delay: 5s;
+}
+.project:nth-of-type(12) {
+  animation: left-show 1s forwards;
+  animation-delay: 5.5s;
+}
+.project:nth-of-type(13) {
+  animation: left-show 1s forwards;
+  animation-delay: 6s;
+}
+.project:nth-of-type(14) {
+  animation: left-show 1s forwards;
+  animation-delay: 6.5s;
+}
+.project:nth-of-type(15) {
+  animation: left-show 1s forwards;
+  animation-delay: 7s;
+}
+.project:nth-of-type(16) {
+  animation: left-show 1s forwards;
+  animation-delay: 7.5s;
+}
+.project:nth-of-type(17) {
+  animation: left-show 1s forwards;
+  animation-delay: 8s;
+}
+.project:nth-of-type(18) {
+  animation: left-show 1s forwards;
+  animation-delay: 8.5s;
+}
+.project:nth-of-type(19) {
+  animation: left-show 1s forwards;
+  animation-delay: 9s;
+}
+
+.project__description {
+  max-width: 600px;
+}
+
+.project__description a {
+  overflow: hidden;
+}
+
+.project__description_title {
+  text-align: center;
+  color: rgb(255, 255, 132);
+}
+
+.project__description p span {
+  color: rgb(255, 255, 132);
+}
+
+.project__description_image {
+  border-radius: 10px;
+  width: 100%;
+  border: solid 10px white;
+  transition: 0.7s;
+}
+
+.project__description__link {
+  border: solid 1px white;
+  background: rgb(255, 255, 132);
+  color: #191c22;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
+.more-project {
+  width: 100%;
+  text-align: center;
+}
+
+@media (hover:hover) {
+  .project__description_image:hover {
+    transform: scale(1.05);
+  }
+}
+
+.project__description_image:active {
+  transition: 0.2s;
+  transform: scale(0.9);
+}
+
+.project__description_control {
+  text-align: center;
+}
+
+.project__description_control a {
+  display: block;
+  min-width: 100px;
+  text-align: center;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 1s;
+}
+
+.greeting {
+  text-align: center;
+  overflow: hidden;
+}
+
+.greeting p {
+  font-size: 30px;
+  width: 100%;
+  transform: translateX(-500%);
+}
+
+.greeting p:nth-of-type(1) {
+  animation: left-show 1s forwards;
+}
+
+.greeting p:nth-of-type(2) {
+  animation: left-show 2s forwards;
+}
+
+.greeting p:nth-of-type(3) {
+  animation: left-show 3s forwards;
+}
+
+.greeting p::after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: solid 1px white;
+}
+
+.greeting p span {
+  color: rgb(255, 255, 132);
+}
+
+.greeting a img {
+  width: 300px;
+  filter: invert(1);
+  transform: translateY(174px);
+  transition: 2s;
+}
+
+.greeting__controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.greeting__controls_link {
+  min-width: 100px;
+  text-align: center;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 1s;
+}
+
+.start {
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+  border-bottom: solid 1px #191c22;
+}
+
+.face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 500px;
+  width: 350px;
+  position: relative;
+  animation: face 4s forwards;
+}
+
+.face__eye{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  transition: 1s;
+}
+
+.face__eye_pupil {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  animation: eyes 3s;
+}
+
+.face__eyebrow {
+  width: 100%;
+  height: 30px;
+  background: black;
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  transition: 1s;
+  animation: eyebrow 3s;
+}
+
+.face__mouth {
+  position: absolute;
+  bottom: 0;
+  width: 140px;
+  border-radius: 50%;
+  border: solid 10px rgb(255, 155, 155);
+  animation: mouth 2s;
+  animation-delay: 4s;
+}
+
+.face__mouth_content {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  animation: mouth-content 1s forwards;
+  animation-delay: 4.5s;
+  opacity: 0;
+  left: -20px;
+}
+
+.face__mouth_content:last-of-type {
+  left: 60px;
+  animation: mouth-content 1s forwards;
+  animation-delay: 5.4s;
+}
+
+.face__gear {
+  position: absolute;
+  width: 240px;
+  top: 0;
+  transition: all 0.5s ease;
+  animation: gear 2s linear infinite;
+}
+
+footer {
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+}
+
+footer a img {
+  width: 40px;
+  padding: 5px;
+  background: white;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+.unvisible {
+  display: none;
+}
+
+.hide {
+  animation: hide 1s forwards;
+}
+
+.show {
+  animation: show 4s forwards;
+}
+
+.cursor {
+  position: fixed;
+  z-index: 10000;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 2px 2px white;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {background-color: #191c22;}
+*::-webkit-scrollbar-track:hover {background-color: #191c22;}
+*::-webkit-scrollbar-track:active {background-color: #191c22;}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: white; 
+}
+*::-webkit-scrollbar-thumb:hover {background-color: rgb(255, 255, 132);}
+*::-webkit-scrollbar-thumb:active {background-color: yellow;}
+
+@keyframes face {
+  0% {transform: translateY(-200%);}
+  100% {transform: translateY(0);}
+}
+
+@keyframes eyes {
+  0% {  transform: translate(-50%, -200%); }
+  100% {  transform: translate(-50%, -50%); }
+}
+
+@keyframes eyebrow {
+  0% {  transform: scale(1.5); }
+  100% {  transform: scale(1); }
+}
+
+@keyframes mouth {
+  0%{height: 0;}
+  25%{height: 40px;}
+  50%{height: 0;}
+  75%{height: 50px;}
+  100%{height: 0;}
+}
+
+@keyframes mouth-content {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    bottom: 80px;
+  }
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    transform: scale(1.2);
+    cursor: url('../assets/images/dot-action.png'), pointer;
+  }
+  
+  .btn:active {
+    transform: scale(0.9);
+    transition: 0.2s;
+  }
+  
+  .mainmenu__list li:hover {
+    transform: scale(1.1);
+    rotate: 20deg;
+  }
+  
+  .mainmenu__link:hover::before {
+    width: 100%;
+  }
+
+  .mainmenu__list li:active {
+    transition: 0.5s;
+    transform: scale(0.9);
+    color: rgb(255, 255, 132);
+  }
+  
+  .contact a:hover {
+    transform: scale(1.1);
+    rotate: 20deg;
+  }
+  
+  .contact:hover a::after {
+    width: 100%;
+  }
+  
+  .project__description_control a:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 3px 3px white;
+  }
+
+  .project__description_control a:active {
+    transform: scale(0.95);
+    transition: 0.2s;
+  }
+  
+  .greeting a img:hover {
+    transform: translateY(0);
+  }
+  
+  .greeting__controls_link:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 3px 3px white;
+  }
+
+  .greeting__controls_link:active {
+    transform: scale(0.8);
+    transition: 0.2s;
+  }
+  
+  .start:hover {
+    transform: scale(1.1);
+    border-bottom: solid 1px red;
+  }
+  
+  .face__eye:hover {
+    transform: scale(1.1);
+  }
+  
+  .face__eye:hover .face__eye_pupil {
+    width: 50px;
+    height: 50px;
+  }
+  
+  footer a img:hover {
+    transform: scale(1.2);
+  }
+
+  footer a img:active {
+    transition: 0.2s;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes left-show {
+  0% {transform: translateX(-500%);}
+  100% {transform: translateX(0);}
+}
+
+@keyframes gear {
+  0% {rotate: 360deg;}
+  100% {rotate: 0;}
+}
+
+@keyframes hide {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes show {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

@@ -39,7 +39,7 @@ const links = {
         <p><span>Description:</span> React SPA with Disney API</p>
         <p><span>Year:</span> 2024</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-        <p class="project__description_control"><a class="https://yourunb.github.io/disney-charcters-redux-RTK/" target="_blank">Open</a></p>
+        <p class="project__description_control"><a href="https://yourunb.github.io/disney-charcters-redux-RTK/" target="_blank">Open</a></p>
       </div>
     </div>
     

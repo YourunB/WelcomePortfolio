@@ -160,64 +160,67 @@ header {
 }
 
 .project:nth-of-type(2) {
-  animation-delay: 0.5s;
+  animation-delay: 0.3s;
 }
 .project:nth-of-type(3) {
-  animation-delay: 1s;
+  animation-delay: 0.6s;
 }
 .project:nth-of-type(4) {
-  animation-delay: 1.5s;
+  animation-delay: 0.9s;
 }
 .project:nth-of-type(5) {
-  animation-delay: 2s;
+  animation-delay: 1.2s;
 }
 .project:nth-of-type(6) {
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
 }
 .project:nth-of-type(7) {
-  animation-delay: 3s;
+  animation-delay: 1.8s;
 }
 .project:nth-of-type(8) {
-  animation-delay: 3.5s;
+  animation-delay: 2.1s;
 }
 .project:nth-of-type(9) {
-  animation-delay: 4s;
+  animation-delay: 2.4s;
 }
 .project:nth-of-type(10) {
-  animation-delay: 4.5s;
+  animation-delay: 2.7s;
 }
 .project:nth-of-type(11) {
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 .project:nth-of-type(12) {
-  animation-delay: 5.5s;
+  animation-delay: 3.3s;
 }
 .project:nth-of-type(13) {
-  animation-delay: 6s;
+  animation-delay: 3.6s;
 }
 .project:nth-of-type(14) {
-  animation-delay: 6.5s;
+  animation-delay: 3.9s;
 }
 .project:nth-of-type(15) {
-  animation-delay: 7s;
+  animation-delay: 4.2s;
 }
 .project:nth-of-type(16) {
-  animation-delay: 7.5s;
+  animation-delay: 4.5s;
 }
 .project:nth-of-type(17) {
-  animation-delay: 8s;
+  animation-delay: 4.8s;
 }
 .project:nth-of-type(18) {
-  animation-delay: 8.5s;
+  animation-delay: 5.1s;
 }
 .project:nth-of-type(19) {
-  animation-delay: 9s;
+  animation-delay: 5.4s;
 }
 .project:nth-of-type(20) {
-  animation-delay: 9.5s;
+  animation-delay: 5.7s;
 }
 .project:nth-of-type(21) {
-  animation-delay: 10s;
+  animation-delay: 6s;
+}
+.project:nth-of-type(22) {
+  animation-delay: 6.3s;
 }
 
 .project__description {

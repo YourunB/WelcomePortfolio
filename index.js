@@ -35,7 +35,7 @@ const links = {
     <div class="project">
       <div class="project__description">
         <p class="project__description_title">Graph/Rest Client</p>
-        <a href="https://yourunb.github.io/disney-charcters-redux-RTK/" target="_blank"><img class="project__description_image" src="assets/images/projects/graph.jpg" alt="Project image"></a>
+        <a href="https://graphiql-app-theta.vercel.app/en" target="_blank"><img class="project__description_image" src="assets/images/projects/graph.jpg" alt="Project image"></a>
         <p><span>Description:</span> Graph/Rest Client created on Next</p>
         <p><span>Year:</span> 2024</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>

@@ -259,7 +259,7 @@ header {
 }
 
 .project__description__link {
-  border: solid 1px white;
+  border: solid 2px white;
   border-radius: 2px;
   padding: 0 10px;
   transition: 0.7s;
@@ -275,7 +275,8 @@ header {
 @media (hover: hover) {
   .project__description__image:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.5);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.2);
   }
 }
 
@@ -293,7 +294,7 @@ header {
   display: block;
   min-width: 100px;
   text-align: center;
-  border: solid white 1px;
+  border: solid white 2px;
   border-radius: 3px;
   padding: 5px;
   transition: 1s;
@@ -326,7 +327,6 @@ header {
   content: '';
   display: block;
   width: 100%;
-  border-bottom: solid 1px white;
 }
 
 .greeting p span {
@@ -335,7 +335,6 @@ header {
 
 .greeting a img {
   width: 300px;
-  filter: invert(1);
   transform: translateY(174px);
   transition: 2s;
   user-select: none;
@@ -351,7 +350,7 @@ header {
 .greeting__controls__link {
   min-width: 100px;
   text-align: center;
-  border: solid white 1px;
+  border: solid white 2px;
   user-select: none;
   border-radius: 3px;
   padding: 5px;
@@ -613,8 +612,7 @@ footer a img {
   .project__description__control a:hover,
   .project__description__link:hover {
     transform: scale(1.02);
-    background: rgb(205, 205, 205);
-    border-color: rgb(205, 205, 205);
+    background: white;
     color: #191c22;
   }
 
@@ -625,12 +623,12 @@ footer a img {
 
   .greeting a img:hover {
     transform: translateY(0);
+    filter: brightness(2);
   }
 
   .greeting__controls__link:hover {
     transform: scale(1.2);
-    background: rgb(205, 205, 205);
-    border-color: rgb(205, 205, 205);
+    background: white;
     color: #191c22;
   }
 

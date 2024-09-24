@@ -8,12 +8,15 @@ const menuLinks = menuContainer.querySelectorAll('.mainmenu__link');
 
 btnMenu.addEventListener('click', () => {
   menuContainer.classList.add('show-menu');
+  document.body.classList.add('scroll-off')
 });
 btnClose.addEventListener('click', () => {
   menuContainer.classList.remove('show-menu');
+  document.body.classList.remove('scroll-off')
 });
 menuContainer.addEventListener('click', () => {
   menuContainer.classList.remove('show-menu');
+  document.body.classList.remove('scroll-off')
 });
 
 const links = {

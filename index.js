@@ -2,13 +2,19 @@ const songClick = document.getElementById('song-click');
 const cursor = document.getElementById('cursor');
 const btnMenu = document.getElementById('btn-menu');
 const btnClose = document.getElementById('btn-close');
-const contentContainer = document.getElementById("content");
-const menuContainer = document.getElementById("mainmenu");
-const menuLinks = menuContainer.querySelectorAll(".mainmenu__link");
+const contentContainer = document.getElementById('content');
+const menuContainer = document.getElementById('mainmenu');
+const menuLinks = menuContainer.querySelectorAll('.mainmenu__link');
 
-btnMenu.addEventListener('click', () => { menuContainer.classList.add('show-menu'); });
-btnClose.addEventListener('click', () => { menuContainer.classList.remove('show-menu'); });
-menuContainer.addEventListener('click', () => { menuContainer.classList.remove('show-menu'); });
+btnMenu.addEventListener('click', () => {
+  menuContainer.classList.add('show-menu');
+});
+btnClose.addEventListener('click', () => {
+  menuContainer.classList.remove('show-menu');
+});
+menuContainer.addEventListener('click', () => {
+  menuContainer.classList.remove('show-menu');
+});
 
 const links = {
   welcome: `
@@ -30,7 +36,7 @@ const links = {
     <a class="greeting__controls_link" href="#projects">Projects</a>
     <a class="greeting__controls_link" href="#contacts">Contacts</a>
   </div>`,
-  projects:`
+  projects: `
     <h2 class="show">Some of my projects</h2>
     <div class="project">
       <div class="project__description">
@@ -288,20 +294,22 @@ const links = {
 function updateButtons() {
   const state = location.hash;
   for (let link of menuLinks) {
-   state === link.getAttribute("href") ? link.classList.add("active") : link.classList.remove("active");
+    state === link.getAttribute('href') ? link.classList.add('active') : link.classList.remove('active');
   }
-};
+}
 
 function updateState() {
   let content = links[location.hash.slice(1)];
-  contentContainer.innerHTML = content ? content : "<p>Страница не найдена</p>";
+  contentContainer.innerHTML = content ? content : '<p>Страница не найдена</p>';
   updateButtons();
 }
 
-window.addEventListener("hashchange", updateState);
-window.addEventListener("click", () => { songClick.play(); })
-window.addEventListener("load", (e) => {
-  location.hash.slice(1) ? updateState() : location.hash = "#welcome";
+window.addEventListener('hashchange', updateState);
+window.addEventListener('click', () => {
+  songClick.play();
+});
+window.addEventListener('load', (e) => {
+  location.hash.slice(1) ? updateState() : (location.hash = '#welcome');
 });
 
 if (navigator.maxTouchPoints > 0) cursor.classList.add('unvisible');
@@ -320,7 +328,7 @@ window.addEventListener('mousemove', (e) => {
     let eyePupilLeft = document.getElementById('eye-pupil-left');
     let eyePupilRight = document.getElementById('eye-pupil-right');
     let x = e.clientX / window.innerWidth;
-    let y = e.clientY / window.innerHeight;  
+    let y = e.clientY / window.innerHeight;
     eyePupilLeft.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
     eyePupilRight.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
   }

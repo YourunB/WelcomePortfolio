@@ -2,10 +2,12 @@
   "devDependencies": {
     "eslint": "^9.11.1",
     "globals": "^15.9.0",
+    "lite-server": "^2.6.1",
     "prettier": "^3.3.3"
   },
   "scripts": {
     "lint": "eslint **/*.js",
-    "format": "npx prettier . --write"
+    "format": "npx prettier . --write",
+    "dev": "lite-server"
   }
 }

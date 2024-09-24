@@ -27,7 +27,7 @@ const links = {
     <div class="face__eye"><div class="face__eyebrow"></div><div id="eye-pupil-right" class="face__eye_pupil"></div></div>
     <div class="face__mouth"><span class="face__mouth_content">Hello</span><span class="face__mouth_content">friend!</span></div>
   </div>
-  <a class="start show" href="#about">Start &#10230;</a>`,
+  <a class="start show" href="#about">Start <span class="start__arrow">&#10230;</span></a>`,
   about: `
   <div class="greeting">
     <p>Thank you for visiting my page</p> 

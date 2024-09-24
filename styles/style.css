@@ -359,9 +359,17 @@ header {
 
 .start {
   width: 100%;
+  font-size: 30px;
   text-align: center;
   transition: 0.5s;
   border-bottom: solid 1px #191c22;
+}
+
+.start__arrow {
+  transition: 0.7s;
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-50px);
 }
 
 .face {
@@ -623,7 +631,7 @@ footer a img {
 
   .greeting a img:hover {
     transform: translateY(0);
-    filter: brightness(2);
+    filter: brightness(1.5);
   }
 
   .greeting__controls__link:hover {
@@ -635,7 +643,11 @@ footer a img {
   .start:hover,
   .more-project:hover {
     transform: scale(1.1);
-    border-bottom: solid 1px yellow;
+  }
+
+  .start:hover .start__arrow {
+    opacity: 1;
+    transform: translateX(0);
   }
 
   .greeting__controls__link:active,

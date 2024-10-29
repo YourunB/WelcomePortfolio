@@ -161,9 +161,10 @@ header {
   transform: translateX(-1000%);
   animation: left-show 1s forwards;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 10px;
   border-radius: 5px;
+  opacity: 0;
 }
 
 .project:nth-of-type(2) {
@@ -228,6 +229,12 @@ header {
 }
 .project:nth-of-type(22) {
   animation-delay: 6.3s;
+}
+.project:nth-of-type(23) {
+  animation-delay: 6.6s;
+}
+.project:nth-of-type(24) {
+  animation-delay: 6.9s;
 }
 
 .project__description {
@@ -678,9 +685,11 @@ footer a img {
 @keyframes left-show {
   0% {
     transform: translateX(-500%);
+    opacity: 0;
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 

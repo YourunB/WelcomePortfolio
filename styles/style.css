@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   background: #191c22;
-  font-family: Pacifico, Arial;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   cursor: url('../assets/images/dot.png'), auto;
   overflow-x: hidden;

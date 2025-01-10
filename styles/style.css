@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   background: #191c22;
-  font-family: Pacifico, Arial;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   cursor: url('../assets/images/dot.png'), auto;
   overflow-x: hidden;
@@ -52,6 +52,7 @@ header {
   top: 0;
   width: 100%;
   height: 100vh;
+  overflow-y: auto;
   backdrop-filter: blur(20px);
   display: flex;
   align-items: center;
@@ -165,6 +166,7 @@ header {
   padding: 10px;
   border-radius: 5px;
   opacity: 0;
+  transition: 1s;
 }
 
 .project:nth-of-type(2) {
@@ -686,6 +688,10 @@ footer a img {
     transition: 0.2s;
     transform: scale(0.8);
   }
+
+  .project:hover {
+    background-color: rgba(50, 50, 50, 0.5)
+}
 }
 
 @keyframes left-show {

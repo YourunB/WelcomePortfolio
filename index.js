@@ -43,6 +43,17 @@ const links = {
     <h2 class="show">Some of my projects</h2>
     <div class="project">
       <div class="project__description">
+        <p class="project__description_title">Mirteam</p>
+        <a href="https://mirteam.netlify.app/" target="_blank"><img class="project__description__image" src="assets/images/projects/mirteam.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Website about stretch ceilings in Moscow</p>
+        <p><span>Year:</span> 2025</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description__control"><a href="https://mirteam.netlify.app/" target="_blank">OPEN</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
         <p class="project__description_title">Pokemon</p>
         <a href="https://yourunb.github.io/pokemon/" target="_blank"><img class="project__description__image" src="assets/images/projects/pokemon.jpg" alt="Project image"></a>
         <p><span>Description:</span> React app about pokemon on FSD</p>

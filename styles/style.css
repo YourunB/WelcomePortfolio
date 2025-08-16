@@ -54,6 +54,7 @@ header {
   height: 100vh;
   overflow-y: auto;
   backdrop-filter: blur(20px);
+  background-color: rgba(25, 28, 34, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -265,11 +266,11 @@ header {
 
 .project__description_title {
   text-align: center;
-  color: rgb(255, 255, 132);
+  color: rgb(255, 255, 200);
 }
 
 .project__description p span {
-  color: rgb(255, 255, 132);
+  color: rgb(255, 255, 200);
 }
 
 .project__description__image {

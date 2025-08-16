@@ -43,6 +43,17 @@ const links = {
     <h2 class="show">Some of my projects</h2>
     <div class="project">
       <div class="project__description">
+        <p class="project__description_title">Vremena Goda</p>
+        <a href="https://xn-----6kcbheeifa5dqigsy.xn--p1ai/" target="_blank"><img class="project__description__image" src="assets/images/projects/vremena-goda.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Tour booking service</p>
+        <p><span>Year:</span> 2025</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description__control"><a href="https://xn-----6kcbheeifa5dqigsy.xn--p1ai/" target="_blank">OPEN</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
         <p class="project__description_title">Mirteam</p>
         <a href="https://mirteam.netlify.app/" target="_blank"><img class="project__description__image" src="assets/images/projects/mirteam.jpg" alt="Project image"></a>
         <p><span>Description:</span> Website about stretch ceilings in Moscow</p>
@@ -126,6 +137,17 @@ const links = {
         <p><span>Year:</span> 2024</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
         <p class="project__description__control"><a href="https://yourunb.github.io/kids-store/" target="_blank">OPEN</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
+        <p class="project__description_title">Kids Store</p>
+        <a href="https://yourunb.github.io/kids-store/" target="_blank"><img class="project__description__image" src="assets/images/projects/kids-store.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Kids Store - Сreated From Figma</p>
+        <p><span>Year:</span> 2024</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description__control"><a href="https://yourunb.github.io/kids-store/" target="_blank">Open</a></p>
       </div>
     </div>
     

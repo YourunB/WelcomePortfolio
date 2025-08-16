@@ -44,7 +44,7 @@ const links = {
     <div class="project">
       <div class="project__description">
         <p class="project__description_title">Vremena Goda</p>
-        <a href="https://xn-----6kcbheeifa5dqigsy.xn--p1ai/" target="_blank"><img class="project__description__image" src="assets/images/projects/mirteam.jpg" alt="Project image"></a>
+        <a href="https://xn-----6kcbheeifa5dqigsy.xn--p1ai/" target="_blank"><img class="project__description__image" src="assets/images/projects/vremena-goda.jpg" alt="Project image"></a>
         <p><span>Description:</span> Tour booking service</p>
         <p><span>Year:</span> 2025</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>

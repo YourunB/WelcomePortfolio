@@ -54,6 +54,28 @@ const links = {
 
     <div class="project">
       <div class="project__description">
+        <p class="project__description_title">Movie Library</p>
+        <a href="https://mvlb.netlify.app/" target="_blank"><img class="project__description__image" src="assets/images/projects/mvlb.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Angular movie library</p>
+        <p><span>Year:</span> 2025</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description__control"><a href="https://mvlb.netlify.app/" target="_blank">OPEN</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
+        <p class="project__description_title">Lore</p>
+        <a href="https://yourunb.github.io/ITMO/lore/" target="_blank"><img class="project__description__image" src="assets/images/projects/lore.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Lore - Figma Maket</p>
+        <p><span>Year:</span> 2025</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description__control"><a href="https://yourunb.github.io/ITMO/lore/" target="_blank">OPEN</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
         <p class="project__description_title">Mirteam</p>
         <a href="https://mirteam.netlify.app/" target="_blank"><img class="project__description__image" src="assets/images/projects/mirteam.jpg" alt="Project image"></a>
         <p><span>Description:</span> Website about stretch ceilings in Moscow</p>

@@ -76,6 +76,17 @@ const links = {
 
     <div class="project">
       <div class="project__description">
+        <p class="project__description_title">Course</p>
+        <a href="https://yourunb.github.io/ITMO/course/" target="_blank"><img class="project__description__image" src="assets/images/projects/course.jpg" alt="Project image"></a>
+        <p><span>Description:</span> Course - Figma Maket</p>
+        <p><span>Year:</span> 2025</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description__control"><a href="https://yourunb.github.io/ITMO/course/" target="_blank">OPEN</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
         <p class="project__description_title">Mirteam</p>
         <a href="https://mirteam.netlify.app/" target="_blank"><img class="project__description__image" src="assets/images/projects/mirteam.jpg" alt="Project image"></a>
         <p><span>Description:</span> Website about stretch ceilings in Moscow</p>

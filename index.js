@@ -43,6 +43,17 @@ const links = {
     <h2 class="show">Some of my projects</h2>
     <div class="project">
       <div class="project__description">
+        <p class="project__description_title">Food Mind AI</p>
+        <a href="https://foodmindai.vercel.app/" target="_blank"><img class="project__description__image" src="assets/images/projects/food-mind-ai.jpg" alt="Project image"></a>
+        <p><span>Description:</span> AI-powered nutrition tracker for monitoring calorie intake and analyzing eating habits</p>
+        <p><span>Year:</span> 2026</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description__control"><a href="https://foodmindai.vercel.app/" target="_blank">OPEN</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
         <p class="project__description_title">Vremena Goda</p>
         <a href="https://xn-----6kcbheeifa5dqigsy.xn--p1ai/" target="_blank"><img class="project__description__image" src="assets/images/projects/vremena-goda.jpg" alt="Project image"></a>
         <p><span>Description:</span> Tour booking service</p>

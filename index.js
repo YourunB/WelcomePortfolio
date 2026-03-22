@@ -55,11 +55,11 @@ const links = {
     <div class="project">
       <div class="project__description">
         <p class="project__description_title">Mirteam Strech Ceilings</p>
-        <a href="http://mirteam.pro/" target="_blank"><img class="project__description__image" src="assets/images/projects/ceilings.jpg" alt="Project image"></a>
+        <a href="https://mirteam.pro/" target="_blank"><img class="project__description__image" src="assets/images/projects/ceilings.jpg" alt="Project image"></a>
         <p><span>Description:</span> Stretch ceilings in Moscow by Mirteam</p>
         <p><span>Year:</span> 2026</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
-        <p class="project__description__control"><a href="http://mirteam.pro/" target="_blank">OPEN</a></p>
+        <p class="project__description__control"><a href="https://mirteam.pro/" target="_blank">OPEN</a></p>
       </div>
     </div>
 

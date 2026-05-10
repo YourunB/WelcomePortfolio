@@ -45,7 +45,7 @@ const links = {
       <div class="project__description">
         <p class="project__description_title">Food Mind AI</p>
         <a href="https://foodmindai.vercel.app/" target="_blank"><img class="project__description__image" src="assets/images/projects/food-mind-ai.jpg" alt="Project image"></a>
-        <p><span>Description:</span> AI-powered nutrition tracker for monitoring calorie intake and analyzing eating habits</p>
+        <p><span>Description:</span> AI-powered nutrition tracker for monitoring calorie</p>
         <p><span>Year:</span> 2026</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
         <p class="project__description__control"><a href="https://foodmindai.vercel.app/" target="_blank">OPEN</a></p>
@@ -65,9 +65,20 @@ const links = {
 
     <div class="project">
       <div class="project__description">
+        <p class="project__description_title">Portfolio Platform</p>
+        <a href="https://portfolio-brown-pi-77.vercel.app/" target="_blank"><img class="project__description__image" src="assets/images/projects/portfolio-platform.png" alt="Project image"></a>
+        <p><span>Description:</span> Website for developers portfolio with Postgres DB</p>
+        <p><span>Year:</span> 2026</p>
+        <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
+        <p class="project__description__control"><a href="https://portfolio-brown-pi-77.vercel.app/" target="_blank">OPEN</a></p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__description">
         <p class="project__description_title">Vremena Goda</p>
         <a href="https://xn-----6kcbheeifa5dqigsy.xn--p1ai/" target="_blank"><img class="project__description__image" src="assets/images/projects/vremena-goda.jpg" alt="Project image"></a>
-        <p><span>Description:</span> Tour booking service</p>
+        <p><span>Description:</span> Tour booking service with Next.js and Postgres DB</p>
         <p><span>Year:</span> 2025</p>
         <p><span>Developer:</span> <a href="https://yourunb.github.io/CV/">Yury Butskevich</a></p>
         <p class="project__description__control"><a href="https://xn-----6kcbheeifa5dqigsy.xn--p1ai/" target="_blank">OPEN</a></p>

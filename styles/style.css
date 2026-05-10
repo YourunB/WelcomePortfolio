@@ -269,6 +269,12 @@ header {
 .project:nth-of-type(34) {
   animation-delay: 9.9s;
 }
+.project:nth-of-type(35) {
+  animation-delay: 10.2s;
+}
+.project:nth-of-type(36) {
+  animation-delay: 10.5s;
+}
 
 .project__description {
   max-width: 600px;
